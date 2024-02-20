@@ -1,0 +1,13 @@
+const Nota1 = 5;
+const Nota2 = 5;
+const Nota3 = 5;
+
+const Media = ( Nota1 + Nota2 + Nota3) / 3;
+
+if(Media < 5){
+ console.log ("reprovado");
+} else if(Media >=5 && Media < 7){
+    console.log("Recuperação");
+} else{
+    console.log("aprovado");
+}
