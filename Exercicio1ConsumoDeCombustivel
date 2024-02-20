@@ -1,0 +1,8 @@
+const precoCombustivel = 5.79;
+const kmPorLitros = 12;
+const distanciAEmKm = 1589;
+
+const litrosConsumidos = distanciAEmKm / kmPorLitros;
+const valorGasto = litrosConsumidos * precoCombustivel;
+
+console.log(valorGasto.toFixed(2));
